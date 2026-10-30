@@ -1,0 +1,262 @@
+{
+  "recipe_diversity/generation.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/src/recipe_diversity/generation.py",
+    "source_sha256": "c2130757fe70fb2cd0e536bb7b51bbd30d60154211dbc0635cc5b30e6c5cd758",
+    "retained_definitions": [
+      "BATCHED_CUISINE_TEMPLATE",
+      "Completion",
+      "GenerationSettings",
+      "MAX_BATCH_REPAIRS",
+      "NONCE_TEMPLATE",
+      "OPENROUTER_URL",
+      "OpenRouterError",
+      "PRIOR_TITLES_TEMPLATE",
+      "PRIOR_TITLE_TOKEN_BUDGET",
+      "PROMPT_TEMPLATES",
+      "RECIPE_OUTPUT_CONTRACT",
+      "RecipeRequest",
+      "TOTAL_RECIPES",
+      "WIDE_CUISINES",
+      "WIDE_CUISINE_BATCH",
+      "WIDE_RECIPES_PER_CUISINE",
+      "WIDE_RECIPE_TEMPLATE",
+      "_INDEX_LOCK",
+      "_append_jsonl",
+      "_assert_raw_prefix",
+      "_atomic_json",
+      "_batched_leaf",
+      "_batched_repair_request",
+      "_config",
+      "_ensure_indexed",
+      "_ensure_indexed_locked",
+      "_obtain_raw",
+      "_persist_request",
+      "_prepare_run",
+      "_prior_request",
+      "_raw_index_row",
+      "_raw_path",
+      "_read_jsonl",
+      "_recipe_records",
+      "_recipe_validation",
+      "_repair_raw_index",
+      "_request_payload",
+      "_retry_delay",
+      "_run_request_pool",
+      "_title",
+      "_validate_experiment_settings",
+      "_validate_raw_payload",
+      "_validate_recipe_provenance",
+      "_wide_contexts",
+      "_wide_cuisine_request",
+      "_wide_leaf_prompt",
+      "_wide_recipe_requests",
+      "batch_labels",
+      "build_prior_titles_prompt",
+      "generate_nonce",
+      "generate_prior_titles",
+      "generate_wide",
+      "identifier_nonce",
+      "nonce_recipe_requests",
+      "parse_labelled_batch",
+      "parse_recipe_batch",
+      "parse_sse_events",
+      "require_api_key",
+      "resume_prefix_length",
+      "run_prior_title_requests",
+      "run_recipe_requests",
+      "run_wide_requests",
+      "stable_nonce",
+      "stream_completion",
+      "wide_cuisine_ids",
+      "wide_jobs"
+    ]
+  },
+  "recipe_diversity/analysis.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/src/recipe_diversity/analysis.py",
+    "source_sha256": "e394edb3892351109c5496441606895c62cc54bdbaec0f248efb57f19fdf7764",
+    "retained_definitions": [
+      "AnalysisArtifacts",
+      "Encoder",
+      "OPTIONAL_POPULATIONS",
+      "REQUIRED_POPULATIONS",
+      "RecipeRecord",
+      "_plot_rho_curve",
+      "_record",
+      "_title_from",
+      "_write_csv",
+      "compare_populations",
+      "compute_rho",
+      "embedding_diagnostics",
+      "encode_remotely",
+      "encode_texts",
+      "explained_variance",
+      "load_response_folder",
+      "minmax_scale",
+      "scale_rows",
+      "write_comparison_artifacts"
+    ]
+  },
+  "recipe_diversity/embedding.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/src/recipe_diversity/embedding.py",
+    "sha256": "8a8268fd3a8a6a06b6a8345259f99a6662ecedffa9d505f3df94bd472caac9da"
+  },
+  "recipe_diversity/metrics.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/src/recipe_diversity/metrics.py",
+    "sha256": "a004e0afa6cdcc54a92fd2e6acbe199ba761dba2d2364629841f8a1158175aef"
+  },
+  "scripts/inference.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/scripts/inference.py",
+    "sha256": "a64ece9e88e4e580b34c96b26c74dcda7aa21e62564468c8c4140e556546e790"
+  },
+  "scripts/lexical_table.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/scripts/lexical_table.py",
+    "sha256": "b1a152d9362680008c074f136d5cd70323ef7dc27802af6d7c37009aa03655d4"
+  },
+  "scripts/make_figures.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/scripts/make_figures.py",
+    "sha256": "441ce1c2d99b5d688e84437b9b281f3af2e3b0a065e75aa6f55bd54795db3505"
+  },
+  "scripts/make_tables.py": {
+    "source": "paper_workspace/paper_v2/reproducibility/scripts/make_tables.py",
+    "sha256": "aa4a5039397c6f7604f3dd790929dae57e90a8aaefb2a2a499cd79a364dd8d30"
+  },
+  "reference/rho_curve.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/rho_curve.csv",
+    "sha256": "b1715486f1a59702bd16028c886e01f3c7fa1237e2d86d530ecead10b1077d96"
+  },
+  "reference/covering_curve.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/covering_curve.csv",
+    "sha256": "1ff4ebef95b60a8c95270062e9f626552b55d2eb79b3eef10a1dc5537e527991"
+  },
+  "reference/manifest.json": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/manifest.json",
+    "sha256": "b860d2148e4e281ac1c0b5381fe847973d398515b282742548ec8cf07c43f94d"
+  },
+  "reference/stratification.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/stratification.csv",
+    "sha256": "5f5087f2225b4604bbd91713bed6a7ee2c11d975752ed9708d299da40d29dc1b"
+  },
+  "reference/lexical_diversity.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/lexical_diversity.csv",
+    "sha256": "31bbbe9170ea720454341ac030063a236f541205de863239736273e2d4179e69"
+  },
+  "reference/manifold_coverage.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/manifold_coverage.csv",
+    "sha256": "f3e95a572785d0b2695ea1f0771bcc72959db6564ae13290f19f5148865be68c"
+  },
+  "reference/population_summary.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/population_summary.csv",
+    "sha256": "71b037c030dc8bf2de12bde285ccc78c9320720d2d9d52782b9e693166176ca1"
+  },
+  "reference/inference.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/reference/inference.csv",
+    "sha256": "a70cd8f818aab916c0405d508c5425a0713dbb2f3a2008dd53f94ebb5f6a02d9"
+  },
+  "data/data/original_recipes/recipes.jsonl": {
+    "source": "paper_workspace/paper_v2/reproducibility/data/original_recipes/recipes.jsonl",
+    "sha256": "00ccb96baed4df99214804fa94fb7b9cb53f77e5db328a80b6475dbe4c904056"
+  },
+  "data/data/original_recipes/index.csv": {
+    "source": "paper_workspace/paper_v2/reproducibility/data/original_recipes/index.csv",
+    "sha256": "ee33910c2570476b5f44b08842c72a741b53aa991f55c4bc77c4aff88201d55a"
+  },
+  "data/runs/nonce_1000/recipes.jsonl": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/nonce_1000/recipes.jsonl",
+    "sha256": "904baa37569f8c1ffeaa33cc5352642b10b37f6a0b809abaf1596977ed80a11d"
+  },
+  "data/runs/nonce_1000/nonce_prompt.txt": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/nonce_1000/nonce_prompt.txt",
+    "sha256": "e637dda7777613b849ee9565cd846df61c771b480072d90b2121ba82af2157a5"
+  },
+  "data/runs/nonce_1000/generation_config.json": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/nonce_1000/generation_config.json",
+    "sha256": "889f19ef6401debf5f8dbbb95e8cab8fc521e3303e0fc8082a6fea49c6a663e8"
+  },
+  "data/runs/prior_titles_1000/recipes.jsonl": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/prior_titles_1000/recipes.jsonl",
+    "sha256": "8a081e85dcf922d510dde7dfac3b192de43a8af28c8c719057ca20507cbd331e"
+  },
+  "data/runs/prior_titles_1000/prior_titles_prompt.txt": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/prior_titles_1000/prior_titles_prompt.txt",
+    "sha256": "950d9f50855077ae53ea253d692c4d5b54e9291e6bb0a4fe0cd3b52dd3ac6290"
+  },
+  "data/runs/prior_titles_1000/generation_config.json": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/prior_titles_1000/generation_config.json",
+    "sha256": "e6fa88fb8a823405aaf884518ce27828727c3d78b6085e21e0836015d919f92c"
+  },
+  "data/runs/wide_1000/recipes.jsonl": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/wide_1000/recipes.jsonl",
+    "sha256": "54b21e3b0b83cf60f30819d8868410e49053d210e193c779a1c1f5516c602299"
+  },
+  "data/runs/wide_1000/batched_cuisine_prompt.txt": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/wide_1000/batched_cuisine_prompt.txt",
+    "sha256": "90257a4739d2d2def8baabf59797a1d596fbcc670888959507609365297ebf24"
+  },
+  "data/runs/wide_1000/wide_recipe_prompt.txt": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/wide_1000/wide_recipe_prompt.txt",
+    "sha256": "d05f4311bf621a92b5b828391c72d6d1d50471f0a682b0a911dec1e89b5f20a7"
+  },
+  "data/runs/wide_1000/generation_config.json": {
+    "source": "paper_workspace/paper_v2/reproducibility/runs/wide_1000/generation_config.json",
+    "sha256": "aabd4218f04c933ca1d27ca7a8350196d68916c1f42d35be185f8cf34bda33a3"
+  },
+  "data/DATA_PROVENANCE.md": {
+    "source": "paper_workspace/paper_v2/reproducibility/DATA_PROVENANCE.md",
+    "sha256": "bcb6f34b1004f2969938d76d92a82a650e97affeaca9d4992c3832e75d36e49a"
+  },
+  "tests/test_wide.py": {
+    "source": "recreation/tests/test_wide.py",
+    "sha256": "d47d269f8ef84eb813579f045cc772e9e6a9fea5e8d69e8a4f2476531dc945b2"
+  },
+  "tests/test_embedding.py": {
+    "source": "recreation/tests/test_embedding.py",
+    "sha256": "144834eafe947eff07b2520af88f501e1b58d13484a5137aaee282a9062a8908"
+  },
+  "tests/test_metrics.py": {
+    "source": "recreation/tests/test_metrics.py",
+    "sha256": "1cebfb9c3bae6018956f64c4f6a283916d97e304fefb39be60fb2f08a2571c6b"
+  },
+  "_source_evidence_manifest": {
+    "source": "paper_workspace/paper_v2/reproducibility/INPUT_SHA256SUMS",
+    "sha256": "2c0b61dccf4893cdd19d9ddd2a3abd64aa079cbfe857a85c6a27b6d87dbb8a1c",
+    "verified_files": 5484
+  },
+  "_manuscript": {
+    "source": "paper_workspace/paper_v2/main.tex",
+    "sha256": "cbd818b3492e70758629a7571fe2499c50cd7d81cf8c2031ac84a02193f29fa7",
+    "included": false
+  },
+  "reference/fig01_claim_statistics.csv": {
+    "source": "paper_workspace/paper_v2/figure_review/tables/fig01_claim_statistics.csv",
+    "sha256": "eefab79e705b1df654bc5f4dbf87da672a17f812d91a1f66f5e0f19391392996"
+  },
+  "reference/fig02_claim_statistics.csv": {
+    "source": "paper_workspace/paper_v2/figure_review/tables/fig02_claim_statistics.csv",
+    "sha256": "93daba0e03db5759311b2b5ae60232f01747cb063f5e1d7dea563077ac79f9fd"
+  },
+  "reference/fig04_claim_statistics.csv": {
+    "source": "paper_workspace/paper_v2/figure_review/tables/fig04_claim_statistics.csv",
+    "sha256": "48aa7dacd1bac329792db3285ea5b6171e3886c517de852d42992bac2108e989"
+  },
+  "reference/fig16_claim_statistics.csv": {
+    "source": "paper_workspace/paper_v2/figure_review/tables/fig16_claim_statistics.csv",
+    "sha256": "30aadcade182c3ddbf05e27514a08b6386778d319a181c09180e2975852971cb"
+  },
+  "scripts/paper_statistics.py": {
+    "sources": [
+      {
+        "source": "paper_workspace/paper_v2/figure_review/setup.py",
+        "sha256": "7929f1e62772c7e71c8fdd6ad88d047bb7576200b8bcd793aab804867c66d372"
+      },
+      {
+        "source": "paper_workspace/paper_v2/figure_review/geometry.py",
+        "sha256": "7f4b943128d518ec1548c70c2f35c67e3835fdfb5aabc8681d0d40230c0bdd20"
+      },
+      {
+        "source": "paper_workspace/paper_v2/figure_review/selected_statistics.py",
+        "sha256": "887e6c894b11d79e199e20b7e53a6123a9acac76aea309eb24cde87815a3fd96"
+      }
+    ],
+    "changes": "Numerical sections extracted into functions using csv instead of pandas; notebook display and narrative removed. Preserves dtype, normalization, RNG, draw order and formulas."
+  }
+}

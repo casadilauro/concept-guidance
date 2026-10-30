@@ -1,0 +1,10 @@
+Write one original recipe in this exact format:
+Title
+
+Ingredients:
+- ingredient
+
+Instructions:
+1. instruction
+Nonce: {nonce}
+Return only the recipe.

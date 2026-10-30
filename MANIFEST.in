@@ -1,0 +1,4 @@
+include run.py analyze.py requirements-analysis.txt uv.lock PROVENANCE.md SOURCE_PROVENANCE.json VERIFICATION.md
+recursive-include scripts *.py
+recursive-include data *.json *.jsonl *.gz *.npz *.csv *.txt *.md
+recursive-include reference *.json *.csv

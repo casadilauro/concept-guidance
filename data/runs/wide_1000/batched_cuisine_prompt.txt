@@ -1,0 +1,8 @@
+Create exactly {count} distinct cuisine contexts, each with a short title and description.
+
+Make them as different from one another as possible.
+
+Use each delimiter and nonce exactly once:
+{labels}
+
+Return only the {count} delimiter-labelled cuisine contexts.

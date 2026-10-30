@@ -1,0 +1,11 @@
+{
+  "max_tokens": 1200,
+  "max_workers": 4,
+  "model": "openai/gpt-oss-120b:nitro",
+  "nonce_scheme": "sha256:textonlyrecipes-nonce-v1",
+  "strategy": "nonce",
+  "temperature": 0.0,
+  "timeout_seconds": 1800.0,
+  "top_p": 1.0,
+  "total_recipes": 1000
+}

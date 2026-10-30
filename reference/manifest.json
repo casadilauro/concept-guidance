@@ -1,0 +1,76 @@
+{
+  "source_folders": {
+    "baseline": "data/original_recipes",
+    "nonce": "runs/nonce_1000",
+    "prior_titles": "runs/prior_titles_1000",
+    "hierarchical": "runs/wide_1000"
+  },
+  "shared_scaling": true,
+  "scaling_bounds": {
+    "low": 0.0,
+    "high": 3.0
+  },
+  "model": "openai/text-embedding-3-large",
+  "k": 15,
+  "embedding": {
+    "model": "openai/text-embedding-3-large",
+    "backend": "openrouter",
+    "dimension": 3072,
+    "effective_rank": 27.173530918327938,
+    "variance_explained": {
+      "10": 0.4689031031803417,
+      "50": 0.7405786697720433,
+      "100": 0.8469226529578353,
+      "200": 0.9216517186868535
+    }
+  },
+  "embedding_by_population": {
+    "baseline": {
+      "model": "openai/text-embedding-3-large",
+      "backend": "openrouter",
+      "dimension": 3072,
+      "effective_rank": 53.69893966079961,
+      "variance_explained": {
+        "10": 0.3426241000581694,
+        "50": 0.7508101849285664,
+        "100": 0.9178403224685813
+      }
+    },
+    "nonce": {
+      "model": "openai/text-embedding-3-large",
+      "backend": "openrouter",
+      "dimension": 3072,
+      "effective_rank": 4.455508030113582,
+      "variance_explained": {
+        "10": 0.9281389677918139,
+        "50": 0.9775263045400783,
+        "100": 0.9873051347449114,
+        "200": 0.9939132926367961
+      }
+    },
+    "prior_titles": {
+      "model": "openai/text-embedding-3-large",
+      "backend": "openrouter",
+      "dimension": 3072,
+      "effective_rank": 29.394529523089442,
+      "variance_explained": {
+        "10": 0.49343050504146635,
+        "50": 0.8379137426662219,
+        "100": 0.9260729296290151,
+        "200": 0.9692199862518848
+      }
+    },
+    "hierarchical": {
+      "model": "openai/text-embedding-3-large",
+      "backend": "openrouter",
+      "dimension": 3072,
+      "effective_rank": 63.87294917896339,
+      "variance_explained": {
+        "10": 0.32013036667078554,
+        "50": 0.6876564263467541,
+        "100": 0.8301948754673432,
+        "200": 0.9196059451800673
+      }
+    }
+  }
+}

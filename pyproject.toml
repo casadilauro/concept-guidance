@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concept-guidance"
+version = "0.1.0"
+description = "Paper-faithful breadth-first concept guidance and offline recipe-diversity reproduction"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx==0.28.1", "rich==14.3.4"]
+
+[project.optional-dependencies]
+analysis = ["numpy==2.5.1", "scipy==1.18.0", "scikit-learn==1.9.0", "matplotlib==3.11.1"]
+
+[tool.setuptools.packages.find]
+include = ["recipe_diversity*"]

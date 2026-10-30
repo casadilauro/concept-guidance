@@ -1,0 +1,13 @@
+Write one original recipe in this exact format:
+Title
+
+Ingredients:
+- ingredient
+
+Instructions:
+1. instruction
+Do not duplicate any of these previously generated titles:
+{existing_titles}
+
+Nonce: {nonce}
+Return only the recipe.

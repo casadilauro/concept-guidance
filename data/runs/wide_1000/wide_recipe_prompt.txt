@@ -1,0 +1,20 @@
+Write exactly {recipe_count} original recipes using this cuisine context.
+
+Cuisine:
+{cuisine}
+
+Make them as different from one another as possible.
+
+Use each delimiter and nonce exactly once:
+{recipe_labels}
+
+For each delimiter-labelled recipe, use this exact recipe output format:
+Title
+
+Ingredients:
+- ingredient
+
+Instructions:
+1. instruction
+
+Return only the {recipe_count} delimiter-labelled recipes.

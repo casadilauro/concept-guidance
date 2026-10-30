@@ -1,0 +1,3 @@
+# Preserve exact evidence bytes, including original CSV line endings.
+data/** -text -whitespace
+reference/** -text -whitespace
